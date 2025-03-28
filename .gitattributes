@@ -1,7 +1,5 @@
 # C# 파일을 주요 언어로 인식
 *.cs linguist-detectable=true
 
-# ShaderLab & HLSL 파일을 무시 (필요한 경우)
-*.shader linguist-vendored
-*.cginc linguist-vendored
-*.hlsl linguist-vendored
+# 나머지 모든 파일을 GitHub의 언어 분석에서 제외
+* linguist-vendored
